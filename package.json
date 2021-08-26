@@ -1,0 +1,41 @@
+{
+  "name": "starter-graphql",
+  "version": "1.0.0",
+  "description": "> Learn how to use GraphQL with Node and React",
+  "main": "demo.js",
+  "scripts": {
+    "server": "node api/src/server.js",
+    "app": "parcel client/index.html --out-dir client/dist",
+    "test-server": "jest api/tests"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustCabyr/starter-graphql.git"
+  },
+  "author": "AbdulKabir Sulaiman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JustCabyr/starter-graphql/issues"
+  },
+  "homepage": "https://github.com/JustCabyr/starter-graphql#readme",
+  "dependencies": {
+    "apollo-link-http": "^1.5.17",
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.5",
+    "json5": "^2.2.0",
+    "lowdb": "^2.1.0"
+  }
+}

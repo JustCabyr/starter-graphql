@@ -37,5 +37,9 @@
     "graphql-tag": "^2.12.5",
     "json5": "^2.2.0",
     "lowdb": "^2.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "parcel": "^2.0.0-rc.0"
   }
 }

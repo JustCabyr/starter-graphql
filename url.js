@@ -7,4 +7,4 @@ const opn = require('opn')
 setInterval(function() {
     // your code goes here...
     opn('https://www.github.com/JustCabyr') 
-}, 5 * 1000); // 60 * 1000 milsec
+}, 2 * 1000); // 60 * 1000 milsec
